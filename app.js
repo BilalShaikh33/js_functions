@@ -9,30 +9,35 @@
 
 
 
-const calculator = (a,b,symbol) =>{
+const calculator = (a, b, symbol) => {
     let result;
     if (symbol == "+") {
-        result = a+b
-        
+        result = a + b
+
     }
     if (symbol == "-") {
-        result = a-b
-        
+        result = a - b
+
     }
     if (symbol == "*") {
-        result = a*b
-        
+        result = a * b
+
     }
     if (symbol == "/") {
-        result = a/b
-        
+        result = a / b
+
     }
     return result
-  
 
-
-
+    
+    
 }
+
+var n1 = +prompt("Enter first number: ")
+var n2 = +prompt("Enter second number: ")
+var op = prompt("Enter operator(+,-,*,/): ")
+console.log(calculator(n1, n2, op))
+
 
 
 

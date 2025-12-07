@@ -56,6 +56,6 @@ const vowelChecker = (a) => {
 }
 
 
-// var letter = prompt("Enter any character: ").toLowerCase()
-// console.log(vowelChecker(letter))
+var letter = prompt("Enter any character: ").toLowerCase()
+console.log(vowelChecker(letter))
 
